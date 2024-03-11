@@ -4,3 +4,4 @@ print(type(x))
 print(type(y))
 print("""hello
       hmm""")
+print(type(True))
