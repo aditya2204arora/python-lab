@@ -1,16 +1,5 @@
-# def even():
-#     evnlist=[]
-#     for i in range(20):
-#         if i%2==0:
-#             evnlist.append(i)
-#     return evnlist
-
-# print(even())
-
-def even():
-    for i in range(20):
-        if i%2==0:
-            return i
-
-for i in even():
-    print(i)
+f1=open('randomfile.txt')
+#print(f1.read())
+print(f1.readline())
+f1.seek(0)
+f1.close()
