@@ -1,5 +1,5 @@
-f1=open('randomfile.txt')
-#print(f1.read())
-print(f1.readline())
-f1.seek(0)
-f1.close()
+def a():
+    t=3
+    return t+3
+t=4
+print(a())
